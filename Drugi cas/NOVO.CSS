@@ -1,0 +1,40 @@
+body {
+  background-image: url("coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+}
+
+legend {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  text-decoration: underline rgb(129, 92, 66);
+  color: black;
+}
+
+label {
+  width: 180px;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration-color: black;
+  font-size: large;
+  background-color: rgb(129, 92, 66);
+
+}
+
+.field {
+  width: 700px;
+  height: 600px;
+  background-color: rgb(232, 205, 182);
+  opacity: 90%;
+  mask: border 50px;
+}
+
+fieldset {
+  border: 1px solid rgb(144, 95, 95);
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
